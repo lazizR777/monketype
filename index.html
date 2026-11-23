@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Typing Test</title>
+<link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@700;900&family=Exo+2:wght@400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="app">
+  <div class="ch prog"><div class="edge"><div class="fill">
+    <svg viewBox="0 0 24 24"><circle cx="12" cy="14" r="8"/><path d="M12 14V9M9 2h6M12 2v4"/></svg>
+    <span>Jarayon: <b id="pp">0%</b></span><div class="bar"><i id="pb"></i></div><i class="sep"></i>
+    <svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>
+    <span><b id="tr">00:15</b> qoldi</span></div></div></div>
+  <div class="hud">
+    <div class="logo"><svg viewBox="0 0 110 70" fill="none" stroke="#4aa6ff" stroke-width="4" stroke-linecap="round"><path d="M8 62A44 44 0 0 1 96 62" /><path d="M52 58L72 30" stroke="#fff"/><circle cx="52" cy="58" r="5" fill="#4aa6ff"/><path d="M0 40h22M4 50h18M0 30h14" stroke="#7ab8ff" stroke-width="3"/></svg><b>TYPING</b><b>TEST</b></div>
+    <div class="gauge" id="wpmG"><svg viewBox="0 0 300 208"><defs><linearGradient id="g1" x1="0" x2="1"><stop offset="0" stop-color="#3dff8a"/><stop offset="1" stop-color="#7dffd2"/></linearGradient></defs>
+<path d="M12 172 A138 138 0 0 1 288 172" fill="none" stroke="#3a56c8" stroke-width="3" stroke-dasharray="2 8" opacity=".7"/>
+<path d="M30 172 A120 120 0 0 1 270 172" fill="none" stroke="#0e1b4a" stroke-width="14" stroke-linecap="round"/>
+<path id="wa" d="M30 172 A120 120 0 0 1 270 172" fill="none" stroke="url(#g1)" stroke-width="14" stroke-linecap="round" pathLength="100" stroke-dasharray="0 100" style="filter:drop-shadow(0 0 8px #3dff8a)"/>
+<g id="wt"></g><g id="nd"><path d="M42 172L150 166.5V177.5Z"/></g>
+<circle class="hub" cx="150" cy="172" r="33"/>
+<text class="wl" x="150" y="160" text-anchor="middle">WPM</text><text id="wpm" x="150" y="184" text-anchor="middle">0</text></svg></div>
+    <div class="gauge" id="accG"><svg class="crown" viewBox="0 0 46 30" fill="rgba(138,77,255,.25)" stroke="#b07dff" stroke-width="2.5" stroke-linejoin="round"><path d="M3 24L6 6l10 9L23 2l7 13 10-9 3 18z"/><path d="M5 28h36"/></svg><svg viewBox="0 0 300 190"><defs><linearGradient id="g2" x1="0" x2="1"><stop offset="0" stop-color="#27e4ff"/><stop offset="1" stop-color="#5a7dff"/></linearGradient></defs>
+<path d="M12 172 A138 138 0 0 1 288 172" fill="none" stroke="#3a56c8" stroke-width="3" stroke-dasharray="2 8" opacity=".7"/>
+<path d="M30 172 A120 120 0 0 1 270 172" fill="none" stroke="#0e1b4a" stroke-width="14" stroke-linecap="round"/>
+<path id="aa" d="M30 172 A120 120 0 0 1 270 172" fill="none" stroke="url(#g2)" stroke-width="14" stroke-linecap="round" pathLength="100" stroke-dasharray="0 100" style="filter:drop-shadow(0 0 8px #27e4ff)"/>
+<circle id="ad" cx="30" cy="172" r="7" fill="#fff" style="filter:drop-shadow(0 0 8px #27e4ff) drop-shadow(0 0 14px #27e4ff)"/></svg><div class="in"><small>ANIQLIK</small><span class="n" id="acc">100%</span></div><div class="cap">ANIQLIK DARAJASI</div></div>
+  </div>
+  <div class="panel tools" id="tools"></div>
+  <div class="panel adv" id="adv"></div>
+  <div class="ch" id="box" tabindex="0" aria-label="Yozish maydoni"><div class="edge"><div class="fill">
+    <div class="win"><div id="txt"></div></div>
+    <div class="hint" id="hint">Yozishni boshlang · Tab yoki Esc — qayta boshlash</div></div></div></div>
+  <div class="kb" id="kb"></div>
+  <div class="ch foot"><div class="edge"><div class="fill"><svg viewBox="0 0 24 24"><path d="M13 2L4 14h6l-2 8 9-12h-6z"/></svg><span>Tezroq yozing · Ko'nikmangizni oshiring</span></div></div></div>
+</div>
+<div class="res" id="res"><div class="panel card"><h2 id="rt">Natija</h2><p id="rm"></p>
+  <div class="grid"><div><b id="rw">0</b><span>WPM</span></div><div><b id="ra">0%</b><span>Aniqlik</span></div><div><b id="rr">0</b><span>Raw WPM</span></div><div><b id="rc">0</b><span>To'g'ri/xato/ortiqcha/o'tkazilgan</span></div><div><b id="rs">0s</b><span>Vaqt</span></div><div><b id="rk">0%</b><span>Barqarorlik</span></div></div>
+  <svg class="chart" id="chart" viewBox="0 0 400 120" preserveAspectRatio="none"></svg>
+  <button class="go" id="again">Qayta boshlash</button></div></div>
+<script src="script.js"></script>
+</body>
+</html>
